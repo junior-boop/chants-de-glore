@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "chants de glore",
+    "slug": "chants-de-glore",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.junior41.chantsdeglore"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.junior41.chantsdeglore"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5a274af-b28b-47ab-812a-d88f133557e8"
+      }
+    },
+    "owner": "junior41",
+    "updates": {
+      "url": "https://u.expo.dev/d5a274af-b28b-47ab-812a-d88f133557e8"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
