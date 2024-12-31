@@ -18,7 +18,9 @@ export default function LongItems({ data } : { data : any}){
                 onPress={() => router.navigate({
                     pathname : '/[id]',
                     params : {
-                        id : 1
+                        id : data.id, 
+                        titre : data.titre,
+                        content : data.contenu
                     }
                 })}
                 style = {sytle.longItems}>
@@ -46,7 +48,9 @@ export function Items ({data}: { data : any}){
                 onPress={() => router.navigate({
                     pathname : '/[id]',
                     params : {
-                        id : 1
+                        id : data.id, 
+                        titre : data.titre, 
+                        content : data.contenu
                     }
                 })}
             style = {sytle.items}>
